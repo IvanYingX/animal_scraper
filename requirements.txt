@@ -1,0 +1,5 @@
+selenium
+webdriver_manager
+tqdm
+urllib3
+boto3
