@@ -22,7 +22,7 @@ class AnimalScraper:
         self.url = f'https://all-free-download.com/free-photos/{animal}'
         
         aws_key_id = input('Enter your AWS key ID please: ')
-        aws_secret_key = input('Enter your AWS secret key: ')
+        aws_secret_key = input('Enter your AWS secret key please: ')
         aws_region = input('Enter your AWS region: ')
         self.client = boto3.client('s3', 
                     aws_access_key_id=aws_key_id,
